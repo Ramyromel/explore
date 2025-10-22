@@ -13,7 +13,7 @@ group :test do
   gem "fastimage"
   gem "httparty"
   gem "minitest"
-  gem "octokit"
+  gem "octokit", ">= 5.0.0"
   gem "pry", require: false
   gem "rubocop-performance"
   gem "safe_yaml"
