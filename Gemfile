@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "faraday", "2.14.0"
+gem "faraday", "2.14.1"
 gem "faraday-retry", "2.4.0"
 gem "github-pages", "~> 232", group: :jekyll_plugins
 gem "json", "2.18.0"
@@ -13,7 +13,7 @@ group :test do
   gem "fastimage"
   gem "httparty"
   gem "minitest"
-  gem "octokit"
+  gem "octokit", ">= 5.0.0"
   gem "pry", require: false
   gem "rubocop-performance"
   gem "safe_yaml"
